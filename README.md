@@ -15,8 +15,7 @@ This repository contains the implementation for Assignment 4, which consists of 
 
 All tasks were implemented in Python using PySpark and standard data structures as required.
 
-$ ML_with_Big_Data_Assignment4/
-│
+ML_with_Big_Data_Assignment4/
 ├── assignment4_M25CSA010.ipynb     # Main notebook implementation
 ├── M25CSA010_CSL7110_Assignment4.pdf  # Assignment report
 └── README.md
@@ -27,15 +26,15 @@ $ ML_with_Big_Data_Assignment4/
 
 Implement clustering algorithms:
 
-Farthest-First Traversal (k-center)
-k-means++ initialization
-k-means objective function
+- Farthest-First Traversal (k-center)
+- k-means++ initialization
+- k-means objective function
 
 Dataset:
 
-4601 data points
-58 dimensions
-Euclidean feature vectors
+- 4601 data points
+- 58 dimensions
+- Euclidean feature vectors
 
 ### Implemented Functions
 - readVectorsSeq(filename)
