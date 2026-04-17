@@ -1,28 +1,27 @@
 # Assignment 4 — Clustering, Web Search, and PageRank (Spark)
---
 
-Course: CSL7110 — Machine Learning with Big Data
-Student Name: Dwivedi Jyoti Rajeshbhai
-Roll Number: M25CSA010
-GitHub Repository: https://github.com/Jyoti-Dwivedi-010/ML_with_Big_Data_Assignment4
---
+
+- Course: CSL7110 — Machine Learning with Big Data
+- Student Name: Dwivedi Jyoti Rajeshbhai
+- Roll Number: M25CSA010
+- GitHub Repository: https://github.com/Jyoti-Dwivedi-010/ML_with_Big_Data_Assignment4
+
 
 This repository contains the implementation for Assignment 4, which consists of three independent components:
 
-Clustering using Farthest-First Traversal and k-means++
-Web Search using an Inverted Index
-PageRank implementation using Apache Spark and RDDs
+- Clustering using Farthest-First Traversal and k-means++
+- Web Search using an Inverted Index
+- PageRank implementation using Apache Spark and RDDs
 
 All tasks were implemented in Python using PySpark and standard data structures as required.
 
---
-ML_with_Big_Data_Assignment4/
+$ ML_with_Big_Data_Assignment4/
 │
 ├── assignment4_M25CSA010.ipynb     # Main notebook implementation
 ├── M25CSA010_CSL7110_Assignment4.pdf  # Assignment report
 └── README.md
 
---
+
 ## Part 1 — Clustering
 ### Objective
 
@@ -54,7 +53,7 @@ Euclidean feature vectors
 ### Time Complexity
 - Both algorithms run in: O(|P| × k)
 
---
+
 
 ## Part 2 — Web Search Using Inverted Index
 ### Objective
@@ -76,7 +75,7 @@ The system processes search queries and returns:
 - InvertedPageIndex
 - SearchEngine
 
--- 
+ 
 
 ## Part 3 — PageRank on Spark
 ### Objective
@@ -122,7 +121,6 @@ The system processes search queries and returns:
 - 424
 - 408
 
---
 
 ## How to Run
 ### Step 1 — Install Dependencies
@@ -132,7 +130,7 @@ jupyter notebook assignment4_solution.ipynb
 ### Step 3 — Execute All Cells
 Run: Kernel → Restart & Run All
 
---
+
 
 ## Key Implementation Details
 - Spark vectors used for clustering
@@ -142,7 +140,7 @@ Run: Kernel → Restart & Run All
 - Exact output matching with reference answers
 - Duplicate edges removed using distinct()
 
--- 
+
 
 ## Assumptions
 - k = 10
